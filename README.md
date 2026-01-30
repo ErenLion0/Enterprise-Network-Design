@@ -1,17 +1,27 @@
-# Enterprise Network Design Project
+# Enterprise Network Design (Cisco Packet Tracer)
 
-Academic project focused on designing a scalable enterprise network.
+Academic project focused on designing and implementing a scalable enterprise network.
 
-## Features
-- Multi-subnet architecture
-- OSPF routing
-- Centralized DHCP
-- DNS, HTTP and Email services
-- Wireless and Remote LAN integration
+## Overview
+This project includes routing, services, and wireless integration across multiple subnets.
+
+## Key Features
+- OSPF routing between multiple network segments
+- Centralized DHCP for dynamic IP addressing
+- DNS + HTTP (Web) + Email (SMTP/POP3) services
+- Wireless LAN integration (Access Point + laptops)
+- End-to-end connectivity and service testing
+
+## Network Segments
+- Management/Server LAN: 10.0.20.0/24
+- Wireless LAN: 10.0.10.0/24
+- Remote LAN: 192.168.8.0/24
+- Inter-router link: 172.16.1.0/30
+
+## Files
+- **Project report (PDF)**: detailed documentation and test results
+- **Screenshots**: topology and verification tests
+- **Packet Tracer file (.pkt)**: full configuration
 
 ## Tools
 - Cisco Packet Tracer
-
-## Description
-Designed and implemented an enterprise network with management, wireless and remote LAN segments.
-Configured routing, DHCP, DNS and email services and tested full end-to-end connectivity.
